@@ -1,0 +1,259 @@
+h1{
+	color: #525d4f;
+}
+.image1{
+    
+    
+    width:400px;
+    margin-bottom: 30px;
+}
+.des{
+    text-align: center;
+
+}
+.dess{
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+}
+.or{
+    width: 700px;
+    margin-left: 300px;
+}
+
+
+
+
+.birth{
+    text-shadow: 0 0 30px #D6EAF8 , 0 0 30px #FDFEFE;
+    font-weight: 700;
+}
+
+input:hover{
+    text-shadow: 0 0 30px #5D6D7E, 0 0 30px #85C1E9;
+    
+}
+.center{
+    width: 100%;
+    height: auto;
+    text-align: center
+}
+div a input{
+    width: auto;
+    height: auto
+}
+.sp{
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.spa{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.button{
+     text-shadow: 0 0 30px #5D6D7E, 0 0 30px #85C1E9;
+    height: 45px;
+    margin: 45px 0;
+    justify-content: center;
+    text-align: center;
+    width: 100% 
+}
+.button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: white;
+    
+    background:linear-gradient(#90986B, #f3e5c3, #5d6941);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center
+    
+}
+@media(max-width:584px){
+    .or{
+    width:100%;
+       margin: 20px 0 12px 0;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .input{
+    margin: 20px 0 12px 0;
+    width: 100%;
+}
+    .forgend{
+    width: 100%;   
+}
+    .inputs{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+}
+.link{
+     height: 45px;
+    margin: 45px 0;
+    
+    justify-content: center
+}
+.link input{
+    height: 100%;
+    color: white;
+    border:none;
+    
+    background:linear-gradient( #5d6941, #f3e5c3);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+text-align: center;
+    
+}
+.footerone{
+    background: linear-gradient(to bottom, #2e86c1 0%, #d6dbdf 50%);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.a1{
+    width: 50%;
+    
+}
+
+    
+
+.col-12{
+    display:flex;
+    
+}
+.select{
+    margin: 10px;
+}
+.e1{
+    margin-left: 100px;
+}
+
+.e3{ 
+    
+    justify-self: center;
+    margin-right: 200px;
+}
+
+
+.e4{
+    margin-right: 100px;
+        
+}
+
+
+.fa-facebook-f{
+    margin: 10px;
+    font-size: 60px;
+    color: blue;
+    
+        
+    
+}
+.fa-facebook-f{
+    color: darkblue;
+    margin: 10px;
+    font-size: 30px;
+} 
+
+
+.fa-twitter{
+    color: dodgerblue;
+    margin: 10px;
+     font-size: 30px
+}
+.fa-instagram{
+    color: brown;
+    margin: 10px;
+    font-size: 30px
+}
+.fa-envelope{
+    color: black;
+    margin: 10px;
+    font-size: 30px;
+    
+}
+
+
+.button{
+    text-shadow: 0 0 30px #5D6D7E, 0 0 30px #85C1E9;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.button input{
+    cursor:pointer;
+    
+    width: 30%;
+    outline: none;
+    color: white;
+    border:none;
+    background-color: #D6EAF8 ;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center
+    
+}
+.form-floating{
+    margin-bottom: 30px;
+}
+
+@media screen & (max-width:600px){
+
+   
+
+    
+}
+.age{
+    width: 200px;
+}
+.neewo {
+  justify-content: center;
+  align-items: center;
+}
+.mf{
+    background:linear-gradient( #5d6941, #f3e5c3);
+}
+.form-check{
+    display: block;
+}
+label{
+  user-select: none;
+}
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  z-index: 10;
+  margin: 0 10px 10px 0;
+  position: relative;
+  color: #ced4da;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 2px solid #ced4da;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+input[type="radio"]:checked + label {
+  color: #495057;
+  background-color: #ced4da;
+}
+
+input[type="radio"] + label {
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+
+

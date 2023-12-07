@@ -1,0 +1,292 @@
+.df {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.or {
+	width: 100%;
+	background-image: url(back.png);
+	height: auto;
+	padding: 50px 0;
+	height: auto;
+}
+h1{
+	color:white;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.container {
+	background-color:rgba(197, 225, 228, 0);
+	border:white 1px solid;
+	max-width: 900px;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+.container .title {
+	font-size: 25px;
+	font-weight: 700;
+	color:black;
+}
+
+.inputs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.input {
+	margin: 20px 0 12px 0;
+	width: calc(100% - 20px);
+}
+input {
+	height: 45px;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid;
+	padding-left: 15px;
+	font-size: 15px;
+}
+input:hover {
+	text-shadow: 0 0 30px #5d6d7e, 0 0 30px #85c1e9;
+}
+.sp {
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+	color:white;
+}
+
+
+
+
+.spa {
+	font-size: 25px;
+	font-weight: 700;
+}
+.center {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+div a input {
+	width: auto;
+	height: auto;
+}
+
+.buttonm:hover {
+	width:50%;
+	justify-content: center;
+	text-align: center;
+	background-color:rgba(183,192,152,0.8);
+	color:black;
+}
+
+.button1 input {
+	cursor: pointer;
+	outline: none;
+	color: white;
+	border: none;
+	font-size: 30px;
+	font-weight: 700;
+	border-radius: 5px;
+	text-align: center;
+}
+@media (max-width: 584px) {
+	.container {
+		max-width: 100%;
+	}
+	.or {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+		margin: 20px 0 12px 0;
+	}
+	.inputs {
+		max-height: 300px;
+	}
+	.link {
+		width: 100%;
+		margin: 45px 0;
+	}
+}
+.link {
+	height: 45px;
+	margin: 45px 0;
+	justify-content: center;
+}
+.link .button1 {
+	cursor: pointer;
+	height: 100%;
+	color: black	;
+	border: none;
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 10px;
+	text-align: center;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	width: 100%;
+	
+}
+
+.transp {
+	background-color:rgba(0, 0, 0,0.06) !important;
+	position: fixed;
+	z-index: 999;
+	display: flex !important;
+	justify-content: space-between !important;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav ul li a {
+	color: white !important;
+	font-size: 18px;
+}
+.aa {
+	text-align: center;
+	justify-self: center;
+	justify-content: center;
+}
+.button {
+	width: 100px;
+	background: none;
+	border-color: white;
+	border-radius: 15px;
+}
+.button:hover {
+	background-color: white;
+	font-size: 15px;
+}
+
+nav ul li a:hover {
+	color: black !important;
+	font-size: 17px;
+	background-color: white;
+	border-radius: 12px;
+}
+
+/* */
+
+footer {
+	width: 100.9%;
+	height: auto;
+	padding: 50px 0;
+	background-color: white;
+	overflow: hidden;
+	background: rgb(161,185,190); 
+	background: linear-gradient(180deg, rgba(161,185,190,1) 0%, rgba(183,192,152,1) 85%);	font-size: 20px;
+	font-family: sans-serif;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.social,
+.about,
+.cont {
+	width: 25%;
+}
+
+.btn {
+	color: white;
+	border-color: white;
+}
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+.btn:active {
+	background-color: white;
+}
+
+.fa:hover {
+	font-size: 40px;
+}
+.fa {
+	border-radius: 100%;
+}
+
+.logo {
+	margin-left: 20px;
+	width: 130px;
+	opacity: 0.7;
+}
+
+.para {
+	text-align: center;
+}
+
+footer p {
+	color: black;
+}
+
+.containerr {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+/**/
+
+@media screen and (max-width: 991.5px) {
+	nav ul {
+		text-align: center !important;
+	}
+
+	nav .ymeen {
+		background: rgb(161,185,190); 
+		background: linear-gradient(180deg, rgba(161,185,190,1) 0%, rgba(183,192,152,1) 85%);
+				display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	nav .ymeen input {
+		max-width: 200px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.containerr {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.social,
+	.cont {
+		margin-bottom: 20px;
+	}
+
+	.social,
+	.about,
+	.cont {
+		width: 80%;
+		padding: 20px;
+	}
+}
+
+.fadii {
+	height: 30px;
+}

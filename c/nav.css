@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	width: 100%;
+}
+
+
+.transp {
+	width:100%;
+	background-color: rgba(0,0,0,0.04) !important;
+	
+	z-index: 999;
+	display: flex !important;
+	justify-content: space-between !important;
+	margin: 0;
+	padding:0; 
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav ul li a {
+	color: black !important;
+	font-size: 18px;
+	margin-right: 5px;
+}
+.aa {
+	text-align: center;
+	justify-self: center;
+	justify-content: center;
+}
+.button {
+	width: 100px;
+	background: none;
+	border-color: white;
+	border-radius: 15px;
+}
+.button:hover {
+	background-color: rgba(183,192,152,0.6);
+	font-size: 15px;
+}
+
+nav ul li a:hover {
+	color: black !important;
+	font-size: px;
+	background-color: rgba(183,192,152,0.4);
+	border-radius: 12px;
+}
+
+/* */
+
+footer {
+	
+	width: 100.9%;
+	height: auto;
+	padding: 50px 0;
+	
+	overflow: hidden;
+	background: rgb(161,185,190);
+background: linear-gradient(180deg, rgba(161,185,190,1) 0%, rgba(183,192,152,1) 85%);
+	font-size: 20px;
+	font-family: sans-serif;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.social,
+.about,
+.cont {
+	width: 25%;
+}
+
+.btn {
+	color: white;
+	border-color: white;
+}
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+.btn:active {
+	background-color: white;
+}
+
+.fa:hover {
+	font-size: 40px;
+}
+.fa {
+	border-radius: 100%;
+}
+
+.logo {
+	margin-left: 20px;
+	width: 130px;
+	opacity: 0.7;
+}
+
+.para {
+	text-align: center;
+}
+
+footer p {
+	color: black;
+}
+
+.containerr {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+/**/
+
+@media screen and (max-width: 991.5px) {
+	nav ul {
+		text-align: center !important;
+	}
+
+	nav .ymeen {
+		background-color: #e8e8e8 !important;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	nav .ymeen input {
+		max-width: 200px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.containerr {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.social,
+	.cont {
+		margin-bottom: 20px;
+	}
+
+	.social,
+	.about,
+	.cont {
+		width: 80%;
+		padding: 20px;
+	}
+}
+
+.fadii {
+	height: 100px;
+}
+
+
+.det{
+    font-size: 23px;
+}
+.des{
+    text-align: center;
+}
+.location{
+    text-align: center;
+}
+.map{
+    align-items: center;
+}
+.buttoonn{
+    width: 240px;
+    background:rgba(183,192,152,0.8);
+	border-radius: 10px;
+	border-color: rgba(183,192,152,0.8);
+	font-size: 18px;
+	margin-left: 200px
+    
+}
+.buttoonn:hover{
+	font-size: 17px;
+	
+}
+
+h1{
+	text-align: center;
+	color: #525d4f;
+	margin-bottom: 20px;
+	margin-right: 90px;
+	font-weight: 700;
+	margin-top: 20px
+}
+.image1{
+	border-radius: 20px;
+    margin-top: 10px;
+    height: 300px;
+    width:400px;
+    margin-bottom: 10px;
+	cursor: pointer;
+}
+.image1:hover{
+	height: 305;
+	width:405px;
+}
+
+.one{
+	margin-left: 50px;
+}
+
+.two{
+	margin-left: 50px;
+}
+.first{
+	margin-left: 40px;
+}
+.second{
+	margin-left: 40px;
+}
+
+.fadii {
+	height: 100px;
+}
+	.abt{
+		margin-left: 100px
+	}
+	.social{
+		margin-left: 100px
+	}
+	
+	
+	.para{
+		margin-left: 580px
+	}
+	.cal{
+		margin-bottom: 15px
+	}
+	.cc{
+		margin-left: 15px
+	}
+
+
+
+
+
+
+
+
+
+
+ 
+    
+   
+    
+    
